@@ -209,9 +209,9 @@ int main(){
     printf("Densidade Populacional: %.2f hab/km²\n", denspop2);
     printf("\n");
 
-    if (denspop1 > denspop2){
+    if (denspop1 < denspop2){
     printf("Carta 01 Venceu\n");
-    } else if (denspop1 < denspop2) {
+    } else if (denspop1 > denspop2) {
     printf("Carta 02 Venceu\n");
     } else { printf("Empate!\n");
     }
